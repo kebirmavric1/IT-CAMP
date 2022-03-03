@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color:floralwhite
+}
+.containet{
+
+    width:88%;
+height: 88%;
+margin: auto;
+margin-top: 40px;
+
+}

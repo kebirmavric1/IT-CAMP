@@ -1,0 +1,61 @@
+body{
+    background-color: slategray;
+}
+
+
+div{
+    padding: 5px;;
+}
+
+
+
+h2{
+    font-size: 20px;
+
+}
+.Uvod{
+    width: 420px;
+    height: 300px;
+    border: 2px solid;
+background-color: white;    
+
+}
+h3{
+display: inline-block;
+margin: 30px;
+font-size: 15px;
+margin-bottom: -3px;
+margin-top: 0px;
+padding: 5px 0px 0px 0px;
+}
+
+p{
+    font-size: 15px;
+    color:dodgerblue;
+    text-align: justify;
+}
+span  { 
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    font-size: 10px;
+
+
+}
+.kraj{
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+ color: black;   
+ 
+}
+.button{
+    padding: 7px;
+    background-color:blue;
+    color: white;
+    margin-left: 350px;
+    border-radius: 2px;
+
+    
+
+}
