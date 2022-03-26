@@ -1,0 +1,41 @@
+body{
+    width: 20%;
+    margin: auto;
+    margin-top: 300px;
+
+}
+
+.header{
+    display: inline-block;
+    font-size: 30px;
+    animation-name: example;
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 0.5; */
+    transform: rotateY(360deg);
+    animation-direction: alternate;
+  
+.O{
+    animation-delay: 0.5s;
+}
+.A{
+    animation-delay: 0.5s;
+}
+.D{
+    animation-delay: 0.5s;
+}
+.I{
+    animation-delay: 0.5s;
+}
+.N{
+animation-delay: 0.5s;
+}
+.G{
+    animation-delay: 0.5s;
+}
+ @keyframes example{
+ 0%{transform: rotateY(0deg);}
+ 50%{transform: rotateY(360deg);}
+ 100%{transform: rotateY(0deg);}
+ }

@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    border-bottom: 2px solid red;
+   
+}
+.page{
+    
+
+}
+.footer{
+   
+}
+.column{
+ 
+    width: 1000px;
+    margin: 0px  auto;
+    
+}
+.page .column{
+    height: 100vh;
+}
+#logo-i-social{
+    display: flex;
+}
+#logo-holder{
+    flex-grow: 1;
+}
+#social-holder{
+    flex-grow: 1;
+    text-align: right;
+}
+#main-menu{
+    display: flex;
+}
+#main-menu a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: red;
+}
+#main-menu a:hover,
+#main-menu a.active{
+    color: white;
+    background-color: red;
+    transition: 400ms;
+}
+#pocetna{
+    text-align: center;
+    color: #ffffff;
+    background: url('wall_jpg.jpg');
+}
+#pocetna h1{
+    font-size: 45pt;
+}
+.dark-box{
+    border: 1px solid #ffffff;
+    background-color: #99999915;
+    font-size: 24pt;
+    
+}

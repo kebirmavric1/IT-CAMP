@@ -1,0 +1,51 @@
+.centar{
+    width: 70%;
+    margin: auto;
+}
+.sredina{
+    width: 60%;
+    height: 50px;
+    margin-right: 20px;
+    border: 3px solid rgb(145, 0,150);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px 0px rgb(145, 0,150);
+}
+
+
+.text, .dugme{
+    display: inline-block;
+}
+
+.dugme{
+    padding: 10px;
+    background-color: blueviolet;
+    color: black;
+    border: 1px solid rgb(67, 3, 126);
+    border-radius: 5px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.prozor{
+    width:300px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: aquamarine;
+    margin-top: 30px;
+    display: inline-block;
+    color: black;
+
+}
+
+.prozor:hover{
+    background-color:rgb(11, 6, 46);
+    color: chocolate;
+
+}
+img{
+    margin-left: 5px;
+}

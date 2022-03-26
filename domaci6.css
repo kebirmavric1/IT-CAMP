@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.vrh{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(66, 66, 66);
+
+}
+.rec{
+        text-align: center;
+        
+    }
+
+.ikona{
+    width: 7%;
+    height: 30px;
+    background-color: rgb(39, 33, 33);
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px;
+    
+    
+    
+}
+.rec , .ikona{
+    display: inline-block;
+}
+i{
+    float: left;
+}
+.left{
+    width: 15%;
+    height: 700px;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+.post{
+    width: 60px;
+    height:60px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 6px;
+    text-align: center;
+    float: right;
+    margin: 20px;
+}
+#menu-social{
+
+    margin: 106px;
+    padding: 20px 0px;
+    text-align: right;
+    color: grey;
+
+}
+    
+#menu-social a:hover,
+#menu-social a.pocetak{
+    color: black;
+
+}
+.down{
+    text-align: right;
+    padding: 20px;
+}
+.aa{
+    color: chocolate;
+}
+#social-media{
+    font-weight: normal;
+    float: right;
+    color: grey;
+    margin: 20px;
+}
+.pozadina{
+    float: right;
+ 
+}
+    .broj{
+        text-align: left;
+        margin: 50px;
+    }
+  .chocolate{
+    color: chocolate;
+}
+
+.holder{
+    display:flex
+}
+.tabla{
+    flex-grow: 1;
+margin-left: 300px;
+position: relative;
+padding: 20px;
+}
+
+
+.slika{
+    margin: 0px;
+    
+}
+
+.border{
+    border: 1px solid rgb(238, 234, 234);
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    padding: 15px;
+}
+i{
+    float: right;
+}
+h2:hover{
+    background-color: black;
+    color: white;
+}
+.top{
+margin-top: 200px;
+
+}
+.group{
+    margin-top: 0px;
+}
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    
+}
+
+.box i{
+    width:90px;
+    position: relative;
+    margin-top: 40px;
+    font-size: 35px;
+    color: coral;
+    padding:0px;
+    text-align: center;
+
+}
+.podela, .podela1{
+    width: 420px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.podela1{
+    margin: 200px;
+}
+.span{
+    margin: 20px;
+}
