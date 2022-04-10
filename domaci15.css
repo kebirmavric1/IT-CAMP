@@ -1,0 +1,27 @@
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: chocolate;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 100px 25% 100px 1fr;
+    grid-template-rows: 100px  25% 100px  auto;
+    grid-template-areas: 'header column column  .'
+                        'header column column . '
+                        'header . spec spec'
+                        'header .  spec spec'
+                        ;
+    
+}
+.item-a{
+    grid-area: header;
+    background-color: cadetblue;
+}
+.item-b{
+    grid-area: column;
+    background-color: burlywood;
+}
+.item-c{
+    grid-area: spec;
+    background-color: steelblue;
+}

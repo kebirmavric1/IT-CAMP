@@ -53,13 +53,148 @@ body{
     text-align: center;
     color: #ffffff;
     background: url('wall_jpg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 #pocetna h1{
     font-size: 45pt;
+    margin-top: 0px;
+    padding-top:calc(50vh - 250px);
 }
 .dark-box{
     border: 1px solid #ffffff;
-    background-color: #99999915;
+    background-color: #99999925;
     font-size: 24pt;
     
+}
+#usluge{
+    text-align: center;
+    color: #ffffff;
+    background: url('savejpg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#karijera{
+    text-align: center;
+    color: #ffffff;
+    background: url('lepe.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.align-centar{
+    text-align: center;
+}
+.krugovi{
+    display: flex;
+    margin: 30px 0;
+}
+.krug-holder{
+    flex-grow: 1;
+    text-align: center;
+}
+.krug{
+    background-color: #dc0101;
+    color: #fff;
+    font-size: 32px;
+    margin: auto;
+    /* display: inline-block; */
+    padding: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.oznaka{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.tehnologije{
+    margin: 30px 0;
+    display: flex;
+}
+.tehnologija{
+    flex-grow: 1;
+
+}
+.tehnologija p{
+    font-weight: bold;
+}
+#usluge{
+    color: #fff;
+}
+#usluge h2{
+    padding: 40px;
+
+}
+.service-row{
+    display: flex;
+    /* margin: -15px auto; */
+    margin: 40px;
+    justify-content: space-between;
+}
+.service-row > div {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #fff;
+
+}
+.service-row > div > img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.service-row > div > p{
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #ffffffc0;
+    position: absolute;
+    margin-bottom: 0px;
+    color: black;
+    font-weight: bold;
+    border-top: 1px solid white;
+}
+#proizvodi h2{
+    padding-top: 50px;
+}
+.proizvod img{
+    width: 300px;
+    height: 150px;
+}
+.matrica{
+    margin-top: 40px;
+    height:500px;
+    display: grid;
+    grid-template:"a  c  b"
+                   "d  c e"
+                   "f  f  g" ;
+                   align-content: space-between;
+                   justify-content: space-between;
+}
+#proizvod-a{
+    grid-area: a;
+}
+#proizvod-b{
+    grid-area: b;
+}
+#proizvod-c{
+    grid-area: c;
+}
+#proizvodi-d{
+    grid-area: d;
+}
+#proizvodi-e{
+    grid-area: e;
+}
+#proizvodi-f{
+    grid-area: f;
+}
+#proizvodi-g{
+    grid-area: g;
 }
