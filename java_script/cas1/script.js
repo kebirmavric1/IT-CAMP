@@ -14,4 +14,5 @@ var3 = 'HELLO WORLD';
 
 var3 = prompt("Unesite vrednost");
 
+
 console.log( 2022 - var3);

@@ -2,7 +2,7 @@
 // brojac = 0
 // sum = 0
 
-//  kolicina =parseInt (prompt('Unesi neki broj'))
+//  kolicina = parseInt (prompt('Unesi neki broj'))
 // while( brojac < kolicina){
 // sum += brojac;
 // brojac++;
@@ -20,7 +20,7 @@
 // if (brojac % 3 === 0 && brojac % 5 === 0){
 //     console.log('fizzbuzz');
 // } else if (brojac % 3 === 0 ) {
-//     console.log('fizz');
+//     console.log('buzz');
 // } else if ( brojac % 5 === 0) {
 //     console.log('fizz');
 // } else {

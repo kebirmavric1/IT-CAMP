@@ -17,55 +17,54 @@
     // console.log(niz);
 
     // niz.push("Novi Element");
-//----------------------------------------------------------
 
 
 
-//     unos = parseInt(prompt("Koliko brojeva unosite"))
-//       brr = [];
-//     for ( i = 0;i < unos;i++) {
-//  br = parseInt(prompt("Unesite broj"))
 
-//  brr.push(br);
-//  console.log(brr);
+    unos = parseInt(prompt("Koliko brojeva unosite"))
+      brr = [];
+    for ( i = 0;i < unos;i++) {
+ br = parseInt(prompt("Unesite broj"))
 
-//     }
+ brr.push(br);
+ console.log(brr);
 
-
-
-//------------------------
+    }
 
 
 
-// niz = [3, 5, 10, 1, 7];
 
-// br = [] ;
 
-// for(i = 0; i < niz.length; i++) {
-//     br.unshift(niz[i]) ;
-// }
 
-// console.log(br);
+niz = [3, 5, 10, 1, 7];
 
-//---------------------------------------
+br = [] ;
 
-// arr = [1,2,4,9,10]
+for(i = 0; i < niz.length; i++) {
+    br.unshift(niz[i]) ;
+}
 
-// upit = parseInt(prompt('Unesite broj za proveru'))
-// founded = false
-// for( i = 0;i <= arr.length;i++) {
+console.log(br);
+
+
+
+arr = [1,2,4,9,10]
+
+upit = parseInt(prompt('Unesite broj za proveru'))
+founded = false
+for( i = 0;i <= arr.length;i++) {
  
-//      if(arr[i] === upit) {
-//          founded = true ;
-//          break
-//      }
-// }
+     if(arr[i] === upit) {
+         founded = true ;
+         break
+     }
+}
 
-//  if (founded) {
-//      console.log('true');
-//  }    else   {
-//          console.log('false');
-//      }
+ if (founded) {
+     console.log('true');
+ }    else   {
+         console.log('false');
+     }
  
 
 

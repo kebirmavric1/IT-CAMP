@@ -16,7 +16,7 @@ switch (operacija)  {
      console.log("Zbir je:", br1 + br2);
      break;
      case "-":
-         console.log("Razlika je", br1 + br2);
+         console.log("Razlika je", br1 - br2);
          break;
          case "*":
              console.log("Proizvod je", br1 * br2);

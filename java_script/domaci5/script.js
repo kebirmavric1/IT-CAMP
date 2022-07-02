@@ -111,3 +111,17 @@ function sum(a,b){
 
 
 sum(20,30);
+//------------------------------------------
+
+
+
+
+n  = parseInt(prompt('Unesi broj'))
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+broj = arr.length - n
+
+newWearr = arr.splice(broj)
+
+console.log(newWearr);
